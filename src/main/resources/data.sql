@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS coins(coinid INT,
     quantity INT);
 
 CREATE SEQUENCE IF NOT EXISTS hibernate_sequence;
-
+-- GAH
 /*
  This is the actual seed data
  */
