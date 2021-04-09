@@ -24,7 +24,7 @@ public class CoinController {
     public ResponseEntity<?> findAllCoins() {
         List<Coin> coins = new ArrayList<>();
         coinRepository.findAll().iterator().forEachRemaining(c -> coins.add(c));
-        System.out.println("Codegrade push");
+
 
         return new ResponseEntity<>(coins, HttpStatus.OK);
     }
